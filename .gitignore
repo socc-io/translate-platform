@@ -11,3 +11,4 @@ npm-debug.log
 
 #Django
 venv
+db.sqlite3
