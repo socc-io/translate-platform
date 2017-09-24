@@ -13,8 +13,8 @@ jupyter와 비슷하게 갑니다.
 ### API
 
 Django framework를 사용해서 JSON Request/Response 형식의 API Server를 만듭니다.
-동시에 프론트엔드 프레임워크에서 빌드된 static파일들에 대한 servlet기능도 겸합니다. (논의가 필요합니다!)
+동시에 프론트엔드 프레임워크에서 빌드된 static파일들에 대한 servlet기능도 겸합니다.
 
 ### Client
 
-React.js(or Vue.js, 논의가 필요합니다!) 프레임워크를 사용합니다.
+React.js 프레임워크를 사용합니다.
