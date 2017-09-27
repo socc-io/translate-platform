@@ -20,8 +20,12 @@ from transi import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
+router.register(r'documents', views.DocumentViewSet)
+router.register(r'paragraphs', views.ParagraphViewSet)
+router.register(r'translateds', views.TranslatedViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^html', views.post_html),
 ]
